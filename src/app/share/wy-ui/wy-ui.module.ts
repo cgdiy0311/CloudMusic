@@ -10,7 +10,7 @@ import { PlayCountPipe } from '../play-count.pipe';
     PlayCountPipe
   ],
   imports: [
-    
+
   ],
   exports: [
     SingleSheetComponent,

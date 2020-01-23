@@ -11,7 +11,7 @@ export class SingleSheetComponent implements OnInit {
   @Input() sheet: SongSheet;
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit () {
   }
 
 }

@@ -31,14 +31,12 @@ export class HomeComponent implements OnInit {
   private getHotTags () {
     this.homeServe.getHotTags().subscribe(tags => {
       this.hotTags = tags;
-      // console.log('tags:', tags);
     });
   }
 
   private getPersonalizedSheetList () {
     this.homeServe.getPerosonalSheetList().subscribe(sheets => {
       this.songSheetList = sheets;
-      // console.log('sheets:', sheets);
     });
   }
 
